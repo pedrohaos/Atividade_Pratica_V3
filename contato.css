@@ -1,0 +1,47 @@
+/* classe do formulario da página contatos */
+.formulario{
+    display: flex;
+    flex-direction: column;
+    margin: 0 25% 0 25%;
+}
+/* classe das labels do formulario da página contados */
+.tituloInput{
+    color: white;
+    font-weight: 600;
+    font-size: 30px;
+}
+/* classe do conteiner que abrage as lebels e os inputs na página */
+.conteiner{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 30px;
+}
+/* classes dos inputs na página contatos */
+.estiloInput{
+    border: none;
+    border-radius: 5px;
+    background: var(--branco);
+    width: 25%;
+    height: 30%;
+}
+/* classe do botão enviar na página contato */
+.btn{
+    margin-top: 30px;
+    background: var(--branco);
+    border: none;
+    color: white;
+    padding: 5px 5px 5px 5px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.btn:hover{
+    background: none;
+    border: 10px solid white;
+}
+
+.btn:active{
+    color: var(--roxo-escuro);
+    border: 10px solid var(--roxo-escuro);
+}

@@ -1,0 +1,17 @@
+/* classe do conteiner que comporta todas as imagens da página portfólios */
+.containerPort{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    margin: 0 25% 0 25%;
+}
+/* classe das imagens na página da portfólios */
+.imgPort{
+    width: 80%;
+    height: 80%;
+}
+
+.imgPort:hover{
+    transition: 0.5s;
+    box-shadow: 10px 10px white;
+}

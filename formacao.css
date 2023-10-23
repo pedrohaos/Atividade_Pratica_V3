@@ -1,0 +1,13 @@
+/* classe dos topicos da página formação */
+.topicos2{
+    color: white;
+    font-weight: 400;
+    font-size: 1.2em;
+    margin: 10px 0 10px 35px;
+    text-align: center;
+}
+/* classe dos titulos da página formação da tag H2 */
+.topicosTitulo{
+    font-weight: 700;
+    font-size: 1.5em;
+}

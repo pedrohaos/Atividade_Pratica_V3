@@ -1,0 +1,57 @@
+/* Aqui o arquivo main puxa todos os outros CSS */
+@import url("./reset.css");
+@import url("./sobreMim.css");
+@import url("./formacao.css");
+@import url("./portfolio.css");
+@import url("./contato.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+/* Criando variaveis de cores */
+:root{
+    --cor-de-fundo: linear-gradient(45deg, #8E8FFA, #C2D9FF);
+    --branco: #C2D9FF;
+    --escuro: #190482;
+    --roxo-escuro: #7752FE;
+    --roxo-claro: #8E8FFA;
+}
+
+/* Classe do body */
+.corpo{
+    background: var(--cor-de-fundo);
+    font-family: 'Montserrat', sans-serif;
+    height: 129vh;
+}
+/* classe da aba de navegação */
+.navegacao{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0 20px 0;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 10px;
+}
+/* classe dos links */
+.navLink{
+    text-decoration: none;
+    color:white;
+    padding: 10px;
+}
+
+.navLink:hover{
+    border: 4px solid white ;
+    border-radius: 10px;
+}
+.navLink:active{
+    border: 4px solid var(--escuro) ;
+    border-radius: 10px;
+    color: var(--escuro);
+}
+/* classe de todos os H1 */
+.tituloPrincipal{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 50px 0;
+    font-weight: 700;
+    font-size: 5em;
+    color:white;
+}
